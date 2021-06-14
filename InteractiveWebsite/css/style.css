@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(45, 45, 45) !important;
+    font-family: 'Montserrar 700', sans-serif  !important;
+}
+
+/*STYLE FOR ALL NAVBARS*/
+
+.navbar .container-fluid{
+
+    width: 75%;
+}
+
+.navbar .container-fluid .navbar-brand .navbar-image{
+
+    margin-top: 0;
+}
+
+
+/*NAVBAR CSS HOME AND FORGOTPASS*/
+
+.home-nav .container-fluid .authButtons{
+
+    font-family: 'Montserrar 700', sans-serif  !important;
+}
+
+ .authButtons .login-btn{
+
+    padding-left: 19px;
+    padding-right: 19px;
+    font-weight: 700;
+}
+
+.authButtons .register-btn{
+
+    font-weight: 700;
+}
+
+/*Make navbar sticky CSS*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    border-bottom: 2px solid #A9A9A9;
+    transition: none !important;
+    z-index: 999;
+}
+
+
+/*Leaderboard and Admin Panel pagination*/
+
+.table-pagination{
+
+    display: table;
+    margin: 0 auto;
+}
+
+.table-pagination-active-page{
+
+    background-color: orange !important;
+}
+
+.table-pagination a{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+    float: left;   
+    padding: 2px 11px; 
+    border: 1.5px solid #ffffff;   
+}
+

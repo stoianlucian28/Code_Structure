@@ -1,0 +1,156 @@
+.choose-quiz-section{
+
+    margin-top: 150px;
+}
+
+.choose-quiz-section .container-fluid{
+
+    width: 75%;
+}
+
+.practice-title{
+
+    color: #ffffff;
+}
+
+.practice-subtitle{
+
+    margin-top: 10px;
+    color: #A9A9A9;
+}
+
+.practice-quizes-content{
+
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 2%;
+   
+}
+
+.practice-choose-quiz-section{
+    
+    margin-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+.choose-quiz-section-title, .practice-quiz-section-title{
+
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.practice-choose-quiz-section .right-content{
+
+    float: right;
+    margin-top: -50px;
+}
+
+ .list-quizes-button{
+
+    color: #ffffff;
+    font-size: 50px;
+    display: block;
+    cursor: pointer;
+}
+
+.choose-quiz-line{
+
+    width: 100%;
+    height: 2px;
+    background-color: #A9A9A9;
+    margin-top: 10px;
+}
+
+.practice-quiz-container{
+
+    margin-top: 15px;
+}
+
+.practice-quiz{
+
+    margin-left: 110px;
+}
+
+.practice-quiz-section-title{
+
+    font-weight: 700;
+}
+
+.practice-quiz-description{
+
+    color: #A9A9A9;
+    margin-left: 120px;
+    margin-top: -20px;
+    font-size: 14px;
+}
+
+.start-quiz-btn{
+
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+#practice-quiz-container-id{
+
+    display: none;
+}
+
+.quiz-container{
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.quiz-container .container-fluid{
+
+    width: 75%;
+}
+
+.quiz-container-header{
+
+    width: 100%;
+    height: 150px;
+    background-color: rgb(187, 135, 67);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.back-to-practice-link{
+
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #cecece;
+}
+
+.quiz-header-img{
+
+    float: left;
+    margin-left: 50px;
+}
+
+.quiz-header-title{
+
+    margin-top: 60px;
+    margin-left: -50px;
+    float: left;
+    color: #ffffff;
+}
+
+.quiz-container-content{
+
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: rgb(54, 54, 54);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

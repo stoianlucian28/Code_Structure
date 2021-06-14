@@ -1,0 +1,68 @@
+/*
+////////////////////////////////////////////
+
+            REGISTER CSS
+
+//////////////////////////////////////////
+*/
+
+.authForm{
+
+    margin-top: 130px;
+    font-family: 'Montserrar 700', sans-serif  !important;
+    
+}
+
+.authForm .container-fluid{
+
+    width: 450px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 1%;
+}
+
+.authForm-image{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.authForm-content{
+
+    margin-top: 50px;
+}
+
+.auth-btn-form{
+
+    width: 100%;
+    font-weight: 700;
+    color: rgb(45,45,45) !important;
+}
+
+.authForm-links{
+
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+.authForm-link-text{
+
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.authForm-link{
+
+    cursor: pointer;
+}
+
+.footerSpacing-authForm-register{
+
+    height: 80px;
+}
+
+.footerSpacing-authForm-login{
+
+    height: 220px;
+}
+

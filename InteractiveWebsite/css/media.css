@@ -1,0 +1,38 @@
+/*
+///////////////////////////////////////////////////////////////
+
+             index.php and forgotPass.php nav
+             and containers + footer
+
+//////////////////////////////////////////////////////////////
+*/
+
+@media screen and (max-width: 768px) {
+    
+     .container-fluid{
+
+        width: 100%;
+    }
+
+    .nav-link{
+
+        font-size: 16px;
+    }
+
+    .dashboard-bar .navbar-collapse{
+
+        background-color: rgb(54, 54, 54) !important;
+        border-radius: 2%;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+    .dashboard-bar .navbar-collapse{
+
+        background-color: rgb(54, 54, 54) !important;
+        border-radius: 2%;
+    }
+}

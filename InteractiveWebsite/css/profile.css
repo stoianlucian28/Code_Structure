@@ -1,0 +1,157 @@
+/*
+///////////////////////////////////////////
+
+              ACCOUNT.PHP
+
+/////////////////////////////////////////
+*/
+
+.account-content{
+
+    margin-top: 100px;
+    color: #ffffff;
+    font-family: 'Montserrar 700', sans-serif  !important;
+}
+
+.account-content .container-fluid{
+
+    width: 75%;
+}
+
+.account-line{
+
+    margin-top: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.personal-info-form{
+
+    margin-top: 30px;
+    width: 500px;
+}
+
+.update-btn{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pass-header{
+
+    margin-top: 50px;
+}
+
+/*
+///////////////////////////////////////////
+
+              PROGRESS.PHP
+
+/////////////////////////////////////////
+*/
+
+
+
+.progress-container{
+
+    margin-top: 100px;
+    color: #ffffff;
+    font-family: 'Montserrar 700', sans-serif  !important;
+}
+
+.progress-container .container-fluid{
+
+    width: 75%;
+}
+
+
+
+.progress-block{
+    margin-top: 20px;
+    background-color: rgb(54, 54, 54);
+    border: 1px #ffffff solid;
+}
+
+.progress-delimiter{
+
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+/*Progress-Info*/
+
+.progress-col{
+
+    margin-top: 20px;
+    margin-left: 8%;
+}
+
+.progress-col .progress-icon{
+
+    font-size: 30px;
+}
+
+.progress-info-container{
+
+    margin-top: 10px;
+}
+
+.variable{
+
+    font-weight: 700;
+}
+
+/*Courses*/
+
+.courses-header{
+
+    margin-top: 50px;
+}
+
+.courses-info{
+
+    margin-bottom: 30px;
+    
+}
+
+.courses-info-row{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.courses-info-row-content{
+
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.courses-info-row-content .row{
+
+    margin-left: 20px;
+}
+
+.progress-link-to-course{
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.courses-info-row-content:hover{
+
+    cursor: pointer;
+    opacity: .5;
+}
+
+/*Progress Bar Background*/
+
+.profile-progress-bar{
+
+    background-color:rgb(126, 126, 126) !important;
+}
+
+
+

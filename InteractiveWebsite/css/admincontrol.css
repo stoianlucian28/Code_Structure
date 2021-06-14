@@ -1,0 +1,273 @@
+/*
+///////////////////////////////////////////
+
+            UNIVERSAL CSS
+
+/////////////////////////////////////////
+*/
+
+.admin-content{
+
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    font-family: 'Montserrar 700', sans-serif  !important;
+}
+
+.admin-content .container-fluid{
+
+    width: 75%;
+}
+
+.admin-form-btn{
+    
+    margin-top: 20px;
+}
+
+/*
+///////////////////////////////////////////
+
+             DASHBOARD NAV
+
+/////////////////////////////////////////
+*/
+
+.logout-btn-dashboard{
+
+    font-weight: 700;
+}
+
+
+/*
+///////////////////////////////////////////
+
+             DASHBOARD BAR
+
+/////////////////////////////////////////
+*/
+.dashboard-bar{
+
+    font-family: 'Montserrar 700', sans-serif  !important;
+}
+
+.dashboard-bar .navbar-toggler{
+
+    background-color: #ffffff !important;
+}
+
+.dashboardBar-image{
+
+    width: 80px;
+    height: 80px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 50%;
+}
+
+.dashboardBarImage-initials{
+
+    color: #ffffff;
+    margin-top: 35%;
+}
+
+.dashboardBar-admin-name{
+
+    color: #ffffff;
+    float: right;
+    margin-top: 30px;
+    margin-right: -4%;
+}
+
+.dashboard-bar .nav-link{
+
+    text-align: center;
+}
+
+/*
+///////////////////////////////////////////
+
+           CREATE.PHP & EDIT.PHP
+
+/////////////////////////////////////////
+*/
+
+
+.admin-content .content{
+
+    margin-top: 100px;
+}
+
+.admin-content-title{
+
+    color: #ffffff;
+}
+
+.category-title{
+
+    margin-top: 45px;
+}
+
+.admin-form label{
+
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.admin-form .mb-3{
+
+    margin-top: 20px;
+}
+
+.admin-form-btn{
+
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-check{
+
+    margin-top: 20px;
+}
+
+#evaluation-form, #toggle-image-two, #toggle-image-three, #toggle-iex-2{
+
+    display: none;
+}
+
+.evaluation-form-input-container{
+
+    margin-top: 20px;
+}
+
+
+.more-images-container{
+
+    margin-top: 20px;
+}
+
+.select-chapter{
+
+    margin-top: 25px;
+}
+
+.page-num{
+
+    width: 70px;
+    text-align: center;
+}
+
+
+
+/*
+///////////////////////////////////////////
+
+              INDEX.PHP
+
+/////////////////////////////////////////
+*/
+
+.index-table-container{
+
+    margin-top: 100px
+}
+
+.index-table{
+
+    margin-top: 45px;
+    color: #ffffff !important;
+}
+
+.index-table-title{
+
+    color: #ffffff;
+}
+
+.index-table .action-btn{
+
+    text-decoration: none;
+}
+
+.admin-edit{
+
+    color: #00ff88;
+}
+
+.admin-delete{
+
+    color: #ce2b2b;
+}
+
+.admin-create-link-btn{
+
+    font-weight: 700;
+    color: rgb(45, 45, 45);
+    margin-bottom: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+/*
+///////////////////////////////////////////
+
+              DASHBOARD.PHP
+
+/////////////////////////////////////////
+*/
+
+.dashboard-content{
+
+    margin-top: 100px;
+}
+
+.dashboard-content .container-fluid{
+
+    width: 75%;
+}
+
+.display-users, .admin-users{
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 200px;
+    border: rgb(141, 141, 141) 2px solid;
+    background-color: rgb(54, 54, 54);
+}
+
+.admin-users{
+
+    height: auto;
+}
+
+.display-users-content{
+
+    margin-top: 10px;
+}
+
+.users-number, .last-user{
+
+    color: #ffffff;
+    text-align: center;
+}
+
+.last-user{
+
+    margin-top: 20px;
+}
+
+.admins-list{
+
+    margin-top: 20px;
+}
+
+.admins-list li{
+
+    color: #ffffff;
+    list-style-type: disc;
+    margin-top: 5px;
+    margin-left: 20%;
+    font-size: 18px; 
+}

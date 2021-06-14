@@ -1,0 +1,215 @@
+
+
+/*PAGE CONTENT CSS*/
+
+.coursesContent{
+
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.coursesContent .container-fluid{
+
+    width: 75%;
+}
+
+/*MAIN COURSES CSS*/
+
+.mainCourses{
+    
+    margin-top: 120px;
+    font-family: 'Montserrar 700', sans-serif;
+    
+}
+
+.mainCoursesTitle{
+
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.mainCoursesText{
+
+    color: #A9A9A9;
+    padding-bottom: 30px;
+}
+
+.mainCourses .col{
+    
+    height: 450px;
+    margin-left: 10px;
+    background-color: rgb(51, 51, 51) !important;
+    border: #A9A9A9 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+
+.mainCourseBoxTitle{
+
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.aboutMainCourse{
+
+    color: #ffffff;
+    text-align: center;
+    display: none;
+}
+
+
+.mainCourseBox-image{
+
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+
+.mainCourses .col:hover .mainCourseBox-image{
+
+    display: none;
+}
+
+
+.mainCourses .col:hover .aboutMainCourse{
+
+    display: block;
+}
+
+/*ALL COURSES CONTENT CSS*/
+
+.allCoursesContent{
+
+    margin-top: 120px;
+}
+
+
+.allCoursesContent .col-auto{
+
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 400px !important;
+    height: 350px !important;
+    background-color: rgb(51, 51, 51) !important;
+    border: #A9A9A9 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+.allCoursesTitle{
+
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.allCoursesBox-image{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.allCoursesBoxTitle{
+
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.allCoursesBoxText{
+
+    color: #DCDCDC;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.allCoursesContent .col-auto:hover{
+
+    background-color: #999898 !important;
+}
+
+/*RECENT COURSES SECTION CSS*/
+
+.recentCourses{
+
+    margin-top: 120px;
+}
+
+.recentCoursesTitle{
+
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.recentCourses-card{
+
+    width: 75%;
+    margin-bottom: 30px;
+    background-color: rgb(51, 51, 51) !important;
+    border: #A9A9A9 1px solid;
+    transition: 0.7s ease-in-out;
+    position: relative;
+    text-decoration: none;
+}
+
+.courseCardLink{
+    
+    text-decoration: none;
+}
+
+.recentCoursesBox-image{
+
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    padding-left: 20px; 
+
+}
+
+.cardInfo{
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.recentCoursesCardCategory{
+
+    color: #A9A9A9;
+}
+
+.recentCoursesCardTitle{
+
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.recentCoursesCardText{
+
+    color: #A9A9A9;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.courseCardLink:hover .recentCourses-card{
+
+    background-color: #999898 !important;
+}
+
